@@ -2716,7 +2716,8 @@ client.on('message', message => {
   .catch(console.error);
 }
 });
-
+//*/
+/*
 client.on('message', message => {
         if (message.content === "!inv") {
             if(!message.channel.guild) return;
@@ -2728,6 +2729,7 @@ client.on('message', message => {
      message.channel.sendEmbed(embed);
        }
    });
+   */
 
 client.on('message', message => {
     if (message.content.startsWith("!avatar")) {
