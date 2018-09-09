@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['389090790984515594','350408440566382592'];
+const devs = ['368324156367962112','363299545901301766'];
 var prefix = "!";
 const db = require('quick.db');
 const client = new Discord.Client();   
@@ -32,7 +32,6 @@ const sql = require("sqlite");
 // Code Change Watching  ================================================================
 
  const adminprefix = "ba.";
-const devs = ['368324156367962112','363299545901301766'];
 bot.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
