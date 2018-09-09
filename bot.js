@@ -31,10 +31,7 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
 // Code Change Watching  ================================================================
-const devs = ['368324156367962112', '363299545901301766'];
- 
-
-client.on('message', message => {
+ client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
     
