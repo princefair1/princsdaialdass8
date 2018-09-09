@@ -377,7 +377,7 @@ coll.first().delete()
   }
 })
 
-client.on('ready', function(){
+/*   client.on('ready', function(){ ////////// كود البلاينق ================================
   client.user.setStatus("dnd");
     var ms = 40000 ;	
     var setGame = ['!inv','!help'];	
@@ -394,7 +394,7 @@ j = 1;
         client.user.setGame(setGame[i],`http://www.youtube.com/gg`);	
 }, ms);	
 	
-});
+});         */
 
 client.on('message' , message => {
   var prefix = "!";
